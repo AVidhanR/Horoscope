@@ -107,7 +107,7 @@ document
       const signFortunes = fortunes[zodiacSign];
       const randomFortune =
         signFortunes[Math.floor(Math.random() * signFortunes.length)];
-      zodiacSignElement.innerHTML = `<p class="">Your zodiac sign is <a href="https://en.wikipedia.org/wiki/${zodiacSign}_(astrology)" class="rainbow-text pacifico-regular">${zodiacSign}</a></p>`;
+      zodiacSignElement.innerHTML = `<p class="">Your zodiac sign is <a href="https://en.wikipedia.org/wiki/${zodiacSign}_(astrology)" target="_blank" class="rainbow-text pacifico-regular">${zodiacSign}</a></p>`;
       fortuneElement.innerHTML = `<b>Fortune: </b>${randomFortune}`;
     } else {
       zodiacSignElement.innerHTML = `<span style="color: red;">Invalid month entered.<span>`;
