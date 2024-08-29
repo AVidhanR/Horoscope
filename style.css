@@ -91,3 +91,13 @@ p {
   font-size: 1.2em;
   color: #333;
 }
+
+.profile-redirect {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+.profile-redirect:hover {
+  color: #4d4dffa6;
+}
