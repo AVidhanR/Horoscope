@@ -1,0 +1,93 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rainbow-text {
+  font-size: 2rem; /* Ensure the text is large enough */
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff7f00,
+    #0000ff,
+    #7f00ff,
+    #ff00ff,
+    #a9a900,
+    #00ff00
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensure the element is inline-block */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: clip;
+}
+
+h1 {
+  color: #444;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3949ab;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #5c6bc0;
+}
+
+p {
+  font-size: 1.2em;
+  color: #333;
+}
